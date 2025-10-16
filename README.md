@@ -1,3 +1,39 @@
-tol dimo na lang check ayow mag upload sa github e
+# 🏥 Medical Assistance Form
 
-https://drive.google.com/drive/folders/1L3NDPYE9KM2VGOeeEEtc_1y7hGHOP1U2?usp=drive_link
+## 📘 Project Overview
+**Project Name:** Medical Assistance Form  
+**Concept:**  
+The **Medical Assistance Form** is a web-based application designed to provide **non-organization free medical services** to individuals in need.  
+It allows users to fill out and submit medical information, choose the type of medical service (e.g., Diagnostic, X-ray, Optical, Dental etc), and receive quick and organized assistance from volunteers or local medical units.
+
+---
+
+## 👥 Group Members and Contributions
+
+| Name | Contribution |
+|------|---------------|
+| Marwin Mandocdoc | Leader & Head Programmer |
+| Diana Teves | Designer & Coding|
+| Shanne Bumanlag | Documentation |
+| Allan Saongon | Testing & Coding |
+
+---
+
+## ⚙️ Features Implemented
+- **Medical Assistance Form** for user information and service selection  
+- Department options (Diagnostic, X-ray, Ultrasound, Optical, Dental, etc.)  
+- **Responsive Design** (mobile-first layout)  
+- **Form Validation** for required fields  
+- Organized submission and record handling  
+- Navigation between Home, Form, and Contact pages
+- A mobile menu toggle
+- Simple image slider or gallery
+- Show/hide content accordion
+
+---
+
+
+## 🚀 How to Run the Project
+1. **Clone or Download** the project repository:
+   ```bash
+   git clone https://github.com/your-username/medical-assistance-form.git
