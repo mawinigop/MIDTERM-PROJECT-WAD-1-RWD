@@ -216,7 +216,6 @@ const validateField = (field) => {
 
   if (medicalservices) {
     medicalservices.addEventListener('change', () => {
-      // Only run if there's already a date selected
       if (appointmentDate.value.trim() !== '') {
         validateField(appointmentDate);
       }
