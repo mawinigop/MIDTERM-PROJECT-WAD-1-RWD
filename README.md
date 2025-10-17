@@ -57,7 +57,7 @@ To experience full functionality, please run the project locally by opening the 
 2. **Open the project folder** in your code editor (e.g., VS Code).
 3. **Run the project** by:
    * Opening `index.html` directly in your browser, **or**
-   * Using a local server environment (e.g., XAMPP, WAMP, or VS Code Live Server).
+   * Using a local server environment (e.g., Windsurf or VS Code Live Server).
 4. **Avoid using external live preview links** when testing form submissions.
 
 ---
