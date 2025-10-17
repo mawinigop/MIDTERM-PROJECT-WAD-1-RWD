@@ -29,6 +29,7 @@ It allows users to fill out and submit medical information, choose the type of m
 - A mobile menu toggle
 - Simple image slider or gallery
 - Show/hide content accordion
+- Submitted page 
 
 ---
 
