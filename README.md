@@ -1,7 +1,7 @@
-# 🏥 Medical Assistance Form
+# 🏥 Medical Assistance 
 
 ## 📘 Project Overview
-**Project Name:** Medical Assistance form
+**Project Name:** Medical Assistance 
 
 **Concept:**  
 The **Medical Assistant** is a web-based application designed to provide **non-organization free medical services** to individuals in need.  
