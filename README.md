@@ -37,4 +37,4 @@ It allows users to fill out and submit medical information, choose the type of m
 ## 🚀 How to Run the Project
 1. **Clone or Download** the project repository:
    ```bash
-   git clone https://github.com/your-username/medical-assistance-form.git
+   git clone https://github.com/mawinigop/MIDTERM-PROJECT-WAD-1-RWD.git
