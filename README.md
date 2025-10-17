@@ -1,7 +1,7 @@
 
 # 🏥 Medical Assistance
 
-## 📘 Project Overview
+## 📘 Project Overview GROUP 7
 
 **Project Name:** Medical Assistance
 
