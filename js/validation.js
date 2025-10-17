@@ -259,6 +259,40 @@ const validateField = (field) => {
 
 };
 
+if (form) {
+  form.addEventListener('reset', e => {
+
+    setTimeout(() => {
+      const fields = [names, email, phone, birth, allergies, medications, pregnancys, noneBox, medicalservices, appointmentDate];
+
+      fields.forEach(field => {
+        if (!field) return;
+
+        field.classList.remove('error-border');
+        field.style.borderColor = '';
+        const parent = field.parentElement;
+        if (parent) {
+          parent.classList.remove('error', 'success');
+          const errorMsg = parent.querySelector('.error');
+          if (errorMsg) errorMsg.remove();
+        }
+
+    
+        if (field === noneBox) {
+          noneBox.querySelectorAll("input[type='checkbox']").forEach(cb => cb.checked = false);
+          noneBox.style.borderColor = '';
+        }
+
+       
+        if (field.tagName.toLowerCase() === 'select') {
+          field.selectedIndex = 0;
+        }
+      });
+    }, 0);
+  });
+}
+
+
 const validateForm = () => {
   let valid = true;
   [names, email, phone, birth, allergies, medications, pregnancys, noneBox, medicalservices, appointmentDate, medicalservices, noneBox].forEach(f => {
