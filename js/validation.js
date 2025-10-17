@@ -214,6 +214,15 @@ const validateField = (field) => {
     }
   }
 
+  if (medicalservices) {
+    medicalservices.addEventListener('change', () => {
+      // Only run if there's already a date selected
+      if (appointmentDate.value.trim() !== '') {
+        validateField(appointmentDate);
+      }
+    });
+  }
+
   if (field === appointmentDate) {
     const dateValue = appointmentDate.value.trim();
     const selectedService = medicalservices.value;
@@ -250,11 +259,12 @@ const validateField = (field) => {
 
 };
 
-
 const validateForm = () => {
   let valid = true;
   [names, email, phone, birth, allergies, medications, pregnancys, noneBox, medicalservices, appointmentDate, medicalservices, noneBox].forEach(f => {
     if (f && !validateField(f)) valid = false;
   });
   return valid;
+
+
 };
