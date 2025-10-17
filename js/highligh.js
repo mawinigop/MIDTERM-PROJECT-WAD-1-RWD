@@ -42,5 +42,10 @@ if (select) {
       clearHighlights();
       highlightRoom(select.value);
     }
+if (form) {
+  form.addEventListener('reset', () => {
+    clearHighlights();
+  });
+}
 }
 

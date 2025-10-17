@@ -215,17 +215,41 @@ const validateField = (field) => {
   }
 
   if (field === appointmentDate) {
-    if (appointmentDate.value.trim() === '') {
+    const dateValue = appointmentDate.value.trim();
+    const selectedService = medicalservices.value;
+
+    if (dateValue === '') {
       setError(appointmentDate, 'Appointment date is required');
       return false;
-    } else {
-      setSuccess(appointmentDate);
-      return true;
     }
-  }
+    
+    if (selectedService) {
+      const roomDays = {
+        '101': ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        '102': ['Wednesday'],
+        '103': ['Monday'],
+        '104': ['Friday'],
+        '105': ['Friday']
+      };
 
+      
+      const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      const dayName = days[new Date(dateValue).getDay()];
+      const validDays = roomDays[selectedService];
+
+      
+      if (!validDays.includes(dayName)) {
+        setError(appointmentDate, `Invalid date. This service is available only on ${validDays.join(', ')}.`);
+        return false; 
+      }
+    }
+    setSuccess(appointmentDate);
+    return true;
+  }
   return true;
+
 };
+
 
 const validateForm = () => {
   let valid = true;
