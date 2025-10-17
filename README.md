@@ -28,7 +28,7 @@ It allows users to fill out and submit medical information, choose the type of m
 - Navigation between Home, Form, and Contact pages
 - A mobile menu toggle
 - Simple image slider or gallery
-- Show/hide content accordion
+- Show/hide content FAQs accordion
 - Submitted page 
 
 ---
