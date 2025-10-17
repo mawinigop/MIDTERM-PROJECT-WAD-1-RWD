@@ -6,7 +6,7 @@
 **Project Name:** Medical Assistance
 
 **Concept:**
-The **Medical Assistant** is a web-based application designed to provide **non-organization free medical services** to individuals in need.
+The **Medical Assistance** is a web-based application designed to provide **non-organization free medical services** to individuals in need.
 It allows users to fill out and submit medical information, choose the type of medical service (e.g., Diagnostic, X-ray, Optical, Dental, etc.), and receive quick and organized assistance from volunteers or local medical units.
 
 ---
