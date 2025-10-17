@@ -7,6 +7,8 @@
 The **Medical Assistant** is a web-based application designed to provide **non-organization free medical services** to individuals in need.  
 It allows users to fill out and submit medical information, choose the type of medical service (e.g., Diagnostic, X-ray, Optical, Dental etc), and receive quick and organized assistance from volunteers or local medical units.
 
+[View Live Project](https://raw.githack.com/mawinigop/MIDTERM-PROJECT-WAD-1-RWD/main/html/index.html)
+
 ---
 
 ## 👥 Group Members and Contributions
